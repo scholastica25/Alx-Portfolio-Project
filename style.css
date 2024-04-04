@@ -552,11 +552,10 @@ footer .copyright {
 
 	#product1 .pro {
 	    width: 8%;
-    	    min-width: 150px;
-    	    margin: 15px 0;
-    	    margin-right: 20px;
+    	min-width: 150px;
+    	margin: 15px 0;
+    	margin-right: 20px;
 	}
-
 	#newsletter {
 		padding: 40px 20px;
 	}
