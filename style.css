@@ -434,7 +434,23 @@ footer .copyright {
 	color: #000;
 }
 
+#pagination {
+	text-align: center;
+}
 
+#pagination a {
+	text-decoration: none;
+	background-color: #088178;
+	padding: 15px 20px;
+	border-radius: 4px;
+	color: #fff;
+	font-size: 600;
+}
+
+#pagination a i {
+	font-size: 16px;
+	font-weight: 600;
+}
 /* Start Media Query*/
 
 @media (max-width:799px) {
@@ -573,26 +589,29 @@ footer .copyright {
 
 	#product1 .pro {
 		width: 8%;
-	    	min-width: 150px;
-	    	margin: 15px 0;
-	    	margin-right: 20px;
+	    min-width: 140px;
+	    margin: 15px 0;
+	    margin-right: 20px;
 	}
 
 	#product1 .pro .des span {
-    	font-size: 10px;
+    	font-size: 9px;
 	}
 
 	#product1 .pro .des h5 {
     font-size: 8px;
 	}
 
-	#product1 .pro .des span {
-    	font-size: 10px;
-	}
+	#product1 .pro .des i {
+    font-size: 10px;
+    color: rgba(243, 181, 25);
+}
 
-	#product1 .pro .des h5 {
-    font-size: 8px;
-	}
+	#product1 .pro .cart {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+}
 
 	#newsletter {
 		padding: 40px 20px;
